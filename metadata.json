@@ -1,7 +1,7 @@
 {
 	"name":"Sweet Cake",
-	"thumbnail":"aprilgardens.png",
-	"screenshot":"aprilgardens.png",
+	"thumbnail":"sweetcake.png",
+	"screenshot":"sweetcake.png",
 	"templateType":"standard",
     "pageTypes": ["home", "about", "contact"],
     "tags": {
