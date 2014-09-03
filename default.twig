@@ -14,13 +14,17 @@
     </div>
 </header>
 
+<section>
+  {{widget('feature', 'featurehome', {"header": "profile", "align":"left", "strapline":"profile","defaultBgImg": asset('images/feature-inner.jpg')})|raw}}
+</section>
+
 <div class="main wrapper clearfix">
     {{zone('main')|raw}}
 </div>  
 
 <footer class="bk-footer">
     <div class="wrapper clearfix">
-        {{widget('content', 'footercolumn1content1', {"content":"<h4>CONTACT</h4>"})|raw}}              
+        {{widget('socialicons', 'thisunqiuewidgetname', {'googleplus': 'profile', 'linkedin':'profile', 'facebook': 'profile', 'twitter': 'profile', 'youtube': 'profile', 'rss': 'profile', 'align': 'widget-align-center'})|raw}}              
         {{widget('profile', 'footercolumn1profileEmail', { 'profileType':'email', 'email':'profile'})|raw}}
         {{widget('profile', 'footercolumn1profilePhone', { 'profileType':'phone', 'phone':'profile'})|raw}} 
     </div>
